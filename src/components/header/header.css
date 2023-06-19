@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=DM Sans");
+
+.header-link {
+  cursor: pointer;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #666666;
+}
+
+.header-link:hover {
+  background: #9fa9f2;
+  background: linear-gradient(135deg, #9fa9f2, #036ca8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  cursor: pointer;
+}

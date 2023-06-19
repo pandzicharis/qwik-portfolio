@@ -1,0 +1,54 @@
+.welcome-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+  letter-spacing: -1px;
+  color: #42446e;
+}
+
+.welcome-name {
+  background: #9fa9f2;
+  background: linear-gradient(135deg, #9fa9f2, #036ca8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.picture-wrapper {
+  background: #9fa9f2;
+  background: linear-gradient(135deg, #9fa9f2, #036ca8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: border-box;
+  box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+}
+
+.picture {
+  width: 308px;
+  height: 308px;
+}
+
+.divider {
+  mix-blend-mode: normal;
+  opacity: 0.3;
+  border: 1px solid #666666;
+}
+
+.rights {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 26px;
+  color: #42446e;
+  cursor: default;
+}
+.msg {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 26px;
+  color: #42446e;
+  cursor: default;
+}

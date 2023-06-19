@@ -1,0 +1,39 @@
+.container-contained {
+  background: #8a9fea;
+  background: linear-gradient(135deg, #8a9fea, #71c5ed);
+  width: 166px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.container-contained:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.3);
+}
+
+.container-outlined {
+  background: #9fa9f2;
+  background: linear-gradient(135deg, #9fa9f2, #036ca8);
+  padding: 2px;
+  width: 166px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container-outlined-text {
+  background: #fff;
+  color: #42446e;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-outlined-text:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.3);
+}

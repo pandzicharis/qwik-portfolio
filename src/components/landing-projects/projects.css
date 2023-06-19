@@ -1,0 +1,14 @@
+.container {
+  background: #9fa9f2;
+  background: linear-gradient(135deg, #9fa9f2, #036ca8);
+  border-radius: 30px;
+  height: 440px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

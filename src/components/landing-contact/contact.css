@@ -1,0 +1,40 @@
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 26px;
+  color: #42446e;
+  cursor: default;
+}
+
+.subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #666666;
+  margin-top: 10px;
+  cursor: default;
+}
+
+.contact-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #42446e;
+  cursor: default;
+}
+
+.contact-subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #666666;
+  cursor: default;
+}
+
+.follow-icons {
+  margin-left: -10px;
+}

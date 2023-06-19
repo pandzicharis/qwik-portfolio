@@ -1,0 +1,62 @@
+.embla {
+  --slide-spacing: 0.5rem;
+  --slide-size: 65%;
+  --slide-height: 19rem;
+  margin-top: 30px;
+}
+.embla__viewport {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+  touch-action: pan-y;
+  flex-direction: row;
+  height: 300px;
+  align-items: center;
+}
+.embla__slide {
+  flex: 0 0 var(--slide-size);
+  min-width: 0;
+  padding-left: var(--slide-spacing);
+  position: relative;
+  height: 300px;
+}
+.container {
+  background: white;
+  box-shadow: 4px 4px 100px rgba(168, 168, 168, 0.25);
+  border-radius: 10px;
+  height: 280px;
+  /* padding: 20px; */
+}
+.project-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: #42446e;
+}
+.project-title-container {
+  display: flex;
+  flex-direction: column;
+}
+.project-subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+  color: #737492;
+}
+.project-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #737492;
+}
+.tech-stack-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 26px;
+  color: #42446e;
+}

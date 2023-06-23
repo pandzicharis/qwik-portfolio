@@ -20,12 +20,12 @@ function About() {
       <div className="mt-10">
         <span className="title">Work experience</span>
         <div className="p-8 w-[70%]">
-          <ol className="relative border-l border-gray-200 dark:border-gray-700">
+          <ol className="relative border-l border-gray-200">
             <li className="mb-10 ml-6">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white ">
                 <svg
                   aria-hidden="true"
-                  className="w-3 h-3 text-blue-800 dark:text-blue-300"
+                  className="w-3 h-3 text-blue-800"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ function About() {
                 </svg>
               </span>
               <div className="flex items-center justify-between">
-                <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="mb-1 text-lg font-semibold text-gray-900">
                   Full-stack developer
                 </h3>
                 <Chip
@@ -71,17 +71,12 @@ function About() {
                   <p className="">September 2021 - now</p>
                 </div>
               </div>
-              {/* <p className="text-base font-normal text-gray-500 dark:text-gray-400 mt-5">
-                All of the pages and components are first designed in Figma and
-                we keep a parity between the two versions even as we update the
-                project.
-              </p> */}
             </li>
             <li className="mb-10 ml-6">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white ">
                 <svg
                   aria-hidden="true"
-                  className="w-3 h-3 text-blue-800 dark:text-blue-300"
+                  className="w-3 h-3 text-blue-800 "
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +89,7 @@ function About() {
                 </svg>
               </span>
               <div className="flex items-center justify-between">
-                <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="mb-1 text-lg font-semibold text-gray-900 ">
                   Web developer
                 </h3>
                 <Chip
@@ -127,17 +122,12 @@ function About() {
                   <p className="">July 2021 - Septemper 2021</p>
                 </div>
               </div>
-              {/* <p className="text-base font-normal text-gray-500 dark:text-gray-400 mt-5">
-                All of the pages and components are first designed in Figma and
-                we keep a parity between the two versions even as we update the
-                project.
-              </p> */}
             </li>
             <li className="mb-10 ml-6">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white ">
                 <svg
                   aria-hidden="true"
-                  className="w-3 h-3 text-blue-800 dark:text-blue-300"
+                  className="w-3 h-3 text-blue-800 "
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -150,7 +140,7 @@ function About() {
                 </svg>
               </span>
               <div className="flex items-center justify-between">
-                <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="mb-1 text-lg font-semibold text-gray-900 ">
                   Codecta Academy student
                 </h3>
                 <Chip
@@ -183,11 +173,6 @@ function About() {
                   <p className="">January 2020 - March 2020</p>
                 </div>
               </div>
-              {/* <p className="text-base font-normal text-gray-500 dark:text-gray-400 mt-5">
-                All of the pages and components are first designed in Figma and
-                we keep a parity between the two versions even as we update the
-                project.
-              </p> */}
             </li>
           </ol>
         </div>
@@ -195,13 +180,13 @@ function About() {
       <div>
         <span className="title">Education</span>
         <div className="p-8 w-[70%]">
-          <ol className="relative border-l border-gray-200 dark:border-gray-700">
+          <ol className="relative border-l border-gray-200 ">
             <li className="mb-10 ml-6">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white ">
                 <SchoolIcon sx={{ fontSize: "14px", color: "#1e40af" }} />
               </span>
               <div className="flex items-center justify-between">
-                <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="mb-1 text-lg font-semibold text-gray-900 ">
                   Bachelor of Information Technologies
                 </h3>
                 <Chip
@@ -234,18 +219,13 @@ function About() {
                   <p className="">October 2016 - June 2022</p>
                 </div>
               </div>
-              {/* <p className="text-base font-normal text-gray-500 dark:text-gray-400 mt-5">
-                All of the pages and components are first designed in Figma and
-                we keep a parity between the two versions even as we update the
-                project.
-              </p> */}
             </li>
             <li className="mb-10 ml-6">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white ">
                 <SchoolIcon sx={{ fontSize: "14px", color: "#1e40af" }} />
               </span>
               <div className="flex items-center justify-between">
-                <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="mb-1 text-lg font-semibold text-gray-900 ">
                   Graduate of the Gazi Husrev-bey madrasa
                 </h3>
                 <Chip
@@ -278,11 +258,6 @@ function About() {
                   <p className="">Septemper 2012 - April 2016</p>
                 </div>
               </div>
-              {/* <p className="text-base font-normal text-gray-500 dark:text-gray-400 mt-5">
-                All of the pages and components are first designed in Figma and
-                we keep a parity between the two versions even as we update the
-                project.
-              </p> */}
             </li>
           </ol>
         </div>

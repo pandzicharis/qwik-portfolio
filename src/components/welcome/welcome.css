@@ -29,26 +29,3 @@
   width: 308px;
   height: 308px;
 }
-
-.divider {
-  mix-blend-mode: normal;
-  opacity: 0.3;
-  border: 1px solid #666666;
-}
-
-.rights {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 13px;
-  line-height: 26px;
-  color: #42446e;
-  cursor: default;
-}
-.msg {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 13px;
-  line-height: 26px;
-  color: #42446e;
-  cursor: default;
-}

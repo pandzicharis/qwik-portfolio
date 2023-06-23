@@ -28,7 +28,13 @@ export default component$(() => {
     <>
       <main>
         <Header />
+        <div></div>
         <Slot />
+        <div class="divider mt-8"></div>
+        <div class="footer mt-7 mb-7 flex justify-between">
+          <p class="rights">@ 2023. All Rights Reserved</p>
+          <p class="rights">Designed by Haris Pandzic</p>
+        </div>
       </main>
     </>
   );

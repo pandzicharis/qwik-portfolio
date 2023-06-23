@@ -12,8 +12,8 @@ export default component$(() => {
   useStylesScoped$(WelcomeStyle);
 
   return (
-    <div class="flex flex-col">
-      <div class="flex mt-32 justify-between items-center">
+    <div class="flex flex-col mt-28">
+      <div class="flex justify-between items-center">
         <div class="flex flex-col">
           <p class="welcome-text">Hi 👋,</p>
           <p class="welcome-text">My name is</p>
@@ -24,17 +24,19 @@ export default component$(() => {
       </div>
       <div class="flex gap-3">
         <ContainedButton />
-        <OutlinedButton />
+        <OutlinedButton
+          onClick$={() => {
+            const element = document.getElementById("contact");
+            if (element) {
+              element.scrollIntoView({ behavior: "smooth" });
+            }
+          }}
+        />
       </div>
       <CurrentEngagement />
       <TechStack />
       <Projects />
       <QContact />
-      <div class="divider mt-8"></div>
-      <div class="footer mt-7 mb-7 flex justify-between">
-        <p class="rights">@ 2023. All Rights Reserved</p>
-        <p class="rights">Designed by Haris Pandzic</p>
-      </div>
     </div>
   );
 });

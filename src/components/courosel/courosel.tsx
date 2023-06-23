@@ -141,7 +141,12 @@ function Courosel() {
                             item.techStack.includes(techStack.type)
                           )
                           .map((i) => (
-                            <Tooltip title={i.name} arrow followCursor>
+                            <Tooltip
+                              title={i.name}
+                              arrow
+                              followCursor
+                              key={i.name}
+                            >
                               <img
                                 src={i.icon}
                                 style={{ height: "40px", marginLeft: "-5px" }}

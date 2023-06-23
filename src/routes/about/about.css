@@ -1,0 +1,34 @@
+.link-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 116px;
+  background: #9fa9f2;
+  background: linear-gradient(135deg, #9fa9f2, #036ca8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  opacity: 0.25;
+}
+.about-me {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #666666;
+}
+.title {
+  color: #42446e;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -0.4px;
+}
+.chip {
+  background-color: "#D7FFE0";
+  color: "#018C0F";
+  font-size: 9px;
+  font-weight: 600;
+  line-height: 26px;
+}

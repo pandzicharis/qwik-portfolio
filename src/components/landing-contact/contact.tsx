@@ -80,7 +80,12 @@ function Contact() {
               <p className="contact-title">Follow me</p>
               <div className="flex mt-1 follow-icons">
                 {footerContacts.map((item) => (
-                  <Tooltip title={item.name} arrow placement="top">
+                  <Tooltip
+                    title={item.name}
+                    arrow
+                    placement="top"
+                    key={item.name}
+                  >
                     <img
                       className="header-link cursor-pointer"
                       src={item.src}
@@ -150,7 +155,7 @@ function Contact() {
           <div className="mt-4">
             <button
               type="button"
-              className="w-full text-white bg-[#42446e] hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+              className="w-full text-white bg-[#42446e] hover:bg-[#42446e] focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
             >
               Send message
             </button>

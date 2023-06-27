@@ -12,7 +12,7 @@ export default component$(() => {
       <div class="flex items-center gap-16">
         <HeaderLink title="Home" href="/" />
         <HeaderLink title="About" href="/about" />
-        <HeaderLink title="Tech Stack" href="/about" />
+        <HeaderLink title="Tech Stack" href="/tech-stack" />
         <HeaderLink title="Projects" href="/about" />
         <div class="flex gap-3">
           <HeaderIcon title="LinkedIn" src="/contact-icons/linkedin.svg" />

@@ -155,7 +155,7 @@ export const myTechStack = [
   },
   {
     type: TechStack.STYLED_COMPONENTS,
-    name: "Styled components",
+    name: "Styled com.",
     icon: "/tech-stack-icons/styled-components.svg",
   },
   {
@@ -215,7 +215,7 @@ export const myTechStack = [
   },
   {
     type: TechStack.ADOBE_INDESIGN,
-    name: "Adobe InDesign",
+    name: "InDesign",
     icon: "/tech-stack-icons/indesign.svg",
   },
 ];
